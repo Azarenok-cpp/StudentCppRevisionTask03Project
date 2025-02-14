@@ -5,6 +5,5 @@ int main(void) {
 	testingTask02();
 	testingTask03();
 	testingTaskX();
-
 	return 0;
 }
