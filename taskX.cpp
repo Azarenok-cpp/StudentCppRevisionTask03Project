@@ -47,5 +47,6 @@ bool taskX(int n, int m, int k) {
 		return false;
 	}
 
+	//O(1)
 	return (k % n == 0 || k % m == 0);
 }

@@ -38,7 +38,6 @@
 
 int task01(int number) {
 	number = abs(number);
-
 	if (number > 9999) {
 		return 0;
 	}
@@ -50,6 +49,6 @@ int task01(int number) {
 		number /= 10;
 	}
 
-
+	//O(N)
 	return sum;
 }

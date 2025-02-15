@@ -59,5 +59,5 @@ string task02(int a, int b, int n) {
 
 	cents = cents % 100;
 
-	return (to_string(ruble) + " " + to_string(cents));
+	return to_string(ruble) + " " + to_string(cents); //O(1)
 }
